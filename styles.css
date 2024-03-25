@@ -1,0 +1,192 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+  }
+  
+  
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #FFFFF0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff7f50;
+  }
+  
+  
+  .welcome-section {
+    height: 100vh;
+     background-image: url('https://images.unsplash.com/photo-1536431311719-398b6704d4cc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-section h1 {
+    font-size: 3em;
+    color: #F8F8FF;
+  }
+  
+  .white-line {
+      background: linear-gradient(to right, #FAF0E6 800px, transparent 1px);
+      background-size: 100% 2px; 
+      height: 2px; 
+      margin-bottom:1rem;
+  }
+  .white-line2 {
+      background: linear-gradient(to right, white 600px, transparent 1px);
+      background-size: 100% 2px; 
+      height: 2px; 
+  }
+  
+  
+  .Intro-section {
+    height: 100vh;
+     background-image: url('https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Intro-section h1 {
+    font-size: 3em;  
+    color: black;
+  }
+  
+  .Intro-section h2 {
+    font-size: 3em;
+    color:#FAF0E6;  
+  }
+  
+  .white-line3 {
+      background: linear-gradient(to left, white 800px, transparent 1px);
+      background-size: 100% 2px; 
+      height: 2px; 
+      margin-bottom:1rem;
+  }
+  .white-line4 {
+      background: linear-gradient(to left, #FFDEAD 400px, transparent 1px);
+      background-size: 100% 2px; 
+      height: 2px; 
+  }
+  
+  .projects-section {
+    padding: 100px 0;
+    background-color: #1a1a1a;
+  }
+  
+  .project-tile {
+    background-color: #333;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    align-items: center;  
+    text-align: center; 
+  }
+  
+  .project-tile:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-tile h2 {
+    color: #FAF0E6;
+    font-size: 1.5em;
+  }
+  
+  .project-image {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  .parallax {
+    background-image: url('https://images.unsplash.com/photo-1580133318324-f2f76d987dd8?w=2000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxuYXR1cmV8ZW58MHx8MHx8fDA%3D');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFDEAD;
+  }
+  
+  .parallax h2 {
+    font-size: 3em;
+  }
+  
+  .parallax-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #FFFFF0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  #privacy{
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 600px) {
+      #navbar {
+          flex-direction: column;
+      }
+  }
